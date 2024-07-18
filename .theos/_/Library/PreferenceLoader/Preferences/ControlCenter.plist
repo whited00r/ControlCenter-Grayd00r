@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = ControlCenter;
+	cell = PSLinkCell;
+	detail = ControlCenterListController;
+	icon = ControlCenter.png;
+	isController = 1;
+	label = ControlCenter;
+    };
+}

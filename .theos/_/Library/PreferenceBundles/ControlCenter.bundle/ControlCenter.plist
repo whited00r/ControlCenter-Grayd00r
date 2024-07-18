@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>label</key>
+		<string>Top Row</string>
+		<key>isController</key>
+		<true/>
+		<key>bundle</key>
+		<string>FlipswitchSettings</string>
+		<key>flipswitchEnabledKey</key>
+		<string>topRowSwitches</string>
+		<key>flipswitchNewAreDisabled</key>
+		<true/>
+		<key>flipswitchSettingsFile</key>
+		<string>/var/mobile/Library/Preferences/com.greyd00r.controlcenter.plist</string>
+		<key>flipswitchPostNotification</key>
+		<string>com.greyd00r.controlcenter.SETTINGSCHANGED</string>
+		<key>flipswitchTemplateBundle</key>
+		<string>/Library/Panel/Panels/ControlCenter.bundle/TopRow.bundle</string>
+		<key>flipswitchDefaultEnabled</key>
+		<array>
+			<string>com.a3tweaks.switch.airplanemode</string>
+			<string>com.a3tweaks.switch.wifi</string>
+			<string>com.a3tweaks.switch.bluetooth</string>
+			<string>com.a3tweaks.switch.airplanemode</string>
+		</array>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>label</key>
+		<string>Bottom Row</string>
+		<key>isController</key>
+		<true/>
+		<key>bundle</key>
+		<string>FlipswitchSettings</string>
+		<key>flipswitchEnabledKey</key>
+		<string>bottomRowSwitches</string>
+		<key>flipswitchNewAreDisabled</key>
+		<true/>
+		<key>flipswitchSettingsFile</key>
+		<string>/var/mobile/Library/Preferences/com.greyd00r.controlcenter.plist</string>
+		<key>flipswitchPostNotification</key>
+		<string>com.greyd00r.controlcenter.SETTINGSCHANGED</string>
+		<key>flipswitchTemplateBundle</key>
+		<string>/Library/Panel/Panels/ControlCenter.bundle/TopRow.bundle</string>
+	</dict>
+
+	</array>
+	<key>title</key>
+	<string>ControlCenter</string>
+</dict>
+</plist>

@@ -1,0 +1,10 @@
+Package: com.greyd00r.controlcenter
+Name: ControlCenter
+Depends: com.greyd00r.panel
+Architecture: iphoneos-arm
+Description: I promise it doesn't bite, much.
+Maintainer: Bruan
+Author: Bruan
+Section: Addons (Lockscreens)
+Version: 0.0.1-78
+Installed-Size: 284
